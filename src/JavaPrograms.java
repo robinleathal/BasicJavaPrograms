@@ -7,6 +7,9 @@ public class JavaPrograms {
 		Salary salaryObj = new Salary();
 		
 		System.out.println("Tax on 85000 at 20% = " +salaryObj.calculateTax());
+		Dominos dominosObj = new Dominos();
+		
+		System.out.println("Final bill after discount = "+dominosObj.calculateBill());
 
 	}
 
