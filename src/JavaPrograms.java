@@ -16,6 +16,10 @@ public class JavaPrograms {
 		Interest interestObj = new Interest();
 		System.out.println("Interest = "+interestObj.calculateInterest());
 		System.out.println("final Amount = "+interestObj.finalAmount());
+		
+		System.out.println("Enter first Number to check");
+		EvenOrOdd objOddEven = new EvenOrOdd();
+		objOddEven.evenOrOdd() ;
 	}
 
 }
