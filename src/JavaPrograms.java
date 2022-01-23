@@ -13,7 +13,9 @@ public class JavaPrograms {
 		
 		JioFiberPlan planObj = new JioFiberPlan();
 		System.out.println("Final cost for Jio Silver plan cost = " + planObj.calculateFinalPlanCost());
-
+		Interest interestObj = new Interest();
+		System.out.println("Interest = "+interestObj.calculateInterest());
+		System.out.println("final Amount = "+interestObj.finalAmount());
 	}
 
 }
