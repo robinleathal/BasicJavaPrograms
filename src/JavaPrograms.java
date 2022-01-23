@@ -10,6 +10,9 @@ public class JavaPrograms {
 		Dominos dominosObj = new Dominos();
 		
 		System.out.println("Final bill after discount = "+dominosObj.calculateBill());
+		
+		JioFiberPlan planObj = new JioFiberPlan();
+		System.out.println("Final cost for Jio Silver plan cost = " + planObj.calculateFinalPlanCost());
 
 	}
 
