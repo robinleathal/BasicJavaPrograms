@@ -1,5 +1,7 @@
+import java.util.Scanner;
 
 public class JavaPrograms {
+	static char ch;
 	
 
 	public static void main(String[] args) {
@@ -16,10 +18,21 @@ public class JavaPrograms {
 		Interest interestObj = new Interest();
 		System.out.println("Interest = "+interestObj.calculateInterest());
 		System.out.println("final Amount = "+interestObj.finalAmount());
+		System.out.println("Enter 'e' to check even odd  or 'l' for Leap year ");
+		Scanner sc = new Scanner(System.in);
+		ch = sc.next().charAt(0);
+		if (ch == 'e'){
+			System.out.println("Enter first Number to check");
+			EvenOrOdd objOddEven = new EvenOrOdd();
+			objOddEven.evenOrOdd() ;
+		} else {
+			System.out.println("Enter Year to check leap year");
+			LeapYear ObjLeap = new LeapYear();
+			ObjLeap.isLeapYear();
+		}
 		
-		System.out.println("Enter first Number to check");
-		EvenOrOdd objOddEven = new EvenOrOdd();
-		objOddEven.evenOrOdd() ;
+		
+		
 	}
 
 }
