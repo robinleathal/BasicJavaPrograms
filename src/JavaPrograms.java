@@ -25,10 +25,13 @@ public class JavaPrograms {
 			System.out.println("Enter first Number to check");
 			EvenOrOdd objOddEven = new EvenOrOdd();
 			objOddEven.evenOrOdd() ;
-		} else {
+		} else if (ch == 'l') {
 			System.out.println("Enter Year to check leap year");
 			LeapYear ObjLeap = new LeapYear();
 			ObjLeap.isLeapYear();
+		} else {
+			ArmstrongNumber armstrongObj = new ArmstrongNumber();
+			armstrongObj .isArmstrongNumber();
 		}
 		
 		
