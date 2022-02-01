@@ -21,6 +21,7 @@ public class JavaPrograms {
 		System.out.println("Enter 'e' to check even odd  or 'l' for Leap year ");
 		Scanner sc = new Scanner(System.in);
 		ch = sc.next().charAt(0);
+		sc.close();
 		if (ch == 'e'){
 			System.out.println("Enter first Number to check");
 			EvenOrOdd objOddEven = new EvenOrOdd();
@@ -34,7 +35,7 @@ public class JavaPrograms {
 			armstrongObj .isArmstrongNumber();
 		}
 		
-		
+		sc.close();
 		
 	}
 
